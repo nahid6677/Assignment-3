@@ -11,8 +11,16 @@
     <!--font-awesome-icon-CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!--font-awesome-icon-CDN-->
+    <style>
+        .castom{
+            background-image: url(assets/bg.jpg);
+            height: 700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
-<body class="">
+<body class="Home">
     <!--Header-->
     <header class="w-full bg-slate-50">
         <div class="w-[85%] mx-auto pt-8 pb-14 flex item-center justify-center flex-col">
@@ -22,7 +30,7 @@
                     <div class="w-auto h-9 flex items-center justify-center px-2  mt-1 bg-green-500 rounded-[50px]"><i class="text-black text-2xl -rotate-45  fa-solid fa-arrow-right"></i></div><h2 class=" text-4xl text-black">Rinterio</h2>
                 </div>
 
-                <ul class="flex gap-4">
+                <ul class="flex gap-8 ">
                     <li><a class="text-xl font-bold text-black" href="">Home</a></li>
                     <li><a class="text-xl font-bold hover:text-black" href="">Services</a></li>
                     <li><a class="text-xl font-bold hover:text-black" href="">Portfolio</a></li>
@@ -37,10 +45,10 @@
 
                     <!-- <div class="bg-white w-auto h-9 flex items-center justify-center px-2  mt-1 bg-green-500 rounded-[50px]"><i class="text-xl -rotate-45  fa-solid fa-arrow-right"></i></div> -->
 
-                    <div href="" class="flex gap-2 px-3 py-2 rounded-3xl bg-lime-500 items-center justify-center">
+                    <button href="" class="flex gap-2 px-3 py-2 rounded-3xl bg-lime-500 items-center justify-center">
                         <a href="" class="text-lg text-black font-bold">Book Consult</a> 
                         <a href="" class="w-auto py-[3px] flex items-center justify-center px-2  mt-1 bg-black mt-[-1px] rounded-[50px]"><i class="text-base text-white  -rotate-45  fa-solid fa-arrow-right"></i></a>
-                    </div>
+                    </button>
                     
                 </div>
             </div>
@@ -129,7 +137,7 @@
             </div>
             <div class="grid-cols-4 gap-1 grid py-24">
 
-                <div class="card w-[80%] bg-red-400 mx-auto shadow-xl">
+                <div class="card w-[80%] bg-red-400 mx-auto shadow-xl hover:shadow-2xl">
                     <div class="pl-10 pt-10">
                         <img class="" src="assets/concept.png" alt="">
                     </div>
@@ -139,7 +147,7 @@
                     
                     </div>
                 </div>
-                <div class="card w-[80%] bg-amber-400 mx-auto shadow-xl">
+                <div class="card w-[80%] bg-amber-400 mx-auto hover:shadow-2xl shadow-xl">
                     <div class="pl-10 pt-10">
                         <img class="" src="assets/flow-chart.png" alt="">
                     </div>
@@ -149,7 +157,7 @@
                     
                     </div>
                 </div>
-                <div class="card w-[80%] bg-emerald-400 mx-auto shadow-xl">
+                <div class="card w-[80%] bg-emerald-400 mx-auto hover:shadow-2xl shadow-xl">
                     <div class="pl-10 pt-10">
                         <img class="" src="assets/vision.png" alt="">
                     </div>
@@ -159,7 +167,7 @@
                     
                     </div>
                 </div>
-                <div class="card  w-[80%] bg-blue-400 mx-auto shadow-xl">
+                <div class="card  w-[80%] bg-blue-400 hover:shadow-2xl mx-auto shadow-xl">
                     <div class="pl-10 pt-10">
                         <img class="" src="assets/budget-planning.png" alt="">
                     </div>
@@ -184,9 +192,9 @@
             <p class="text-base pb-14 text-center mx-auto w-1/2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
             <div class="grid gap-4  grid-cols-4 " >
-                <div class=" col-span-3 h-72">
+                <div class=" col-span-3 h-72 shadow-md hover:shadow-2xl rounded-3xl">
 
-                    <div class="card card-side h-full w-full shadow-xl">
+                    <div class="card card-side h-full w-full ">
                         <figure>
                           <img class="h-full rounded-2xl"
                             src="assets/img1.png"
@@ -206,11 +214,11 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-span-1 h-72"><img class="h-full"
+                <div class="col-span-1 h-72 hover:shadow-2xl shadow-xl shadow-xl rounded-3xl"><img class="h-full"
                      src="assets/img2.png" alt=""></div>
-                <div class="col-span-1 h-72" ><img class="w-full h-full"
+                <div class="col-span-1 h-72 hover:shadow-2xl shadow-md rounded-3xl" ><img class="w-full h-full"
                     src="assets/img3.png" alt=""></div>
-                <div class=" col-span-2 h-72">
+                <div class=" col-span-2 h-72 hover:shadow-2xl shadow-md rounded-3xl">
                     <div class="card card-side h-full w-full shadow-xl">
                         <figure>
                           <img class="h-full rounded-2xl"
@@ -231,13 +239,69 @@
                         </div>
                       </div>
                 </div>
-                <div class=" col-span-1 h-72"><img class="w-full h-full"
+                <div class=" col-span-1 h-72 hover:shadow-2xl shadow-md rounded-3xl"><img class="w-full h-full"
                     src="assets/img3.png" alt=""></div>
                 <!-- <div class="bg-red-500 w-24 text-center">nahid</div>
                 <div class="bg-red-500 w-24 text-center">nahid</div> -->
             </div>
         </div>
     </section>
+
+    <section class="w-full bg-slate-100 castom">
+        <div class="w-[80%] mx-auto  py-[100px]">
+            <div href="" class="flex w-52 mx-auto pl-1 gap-1 px-3 justify-center rounded-3xl bg-lime-300 ">
+                <a href="" class="w-auto py-[3px] flex items-center justify-center px-2  mt-1  mt-[2px] rounded-[50px]"><i class="text-base text-black    fa-solid fa-arrow-right"></i></a>
+                <a href="" class="text-lg text-black font-bold">Let’s Connect</a> 
+            </div>
+
+            <h1 class="text-3xl font-bold text-black text-center py-6">Let’s Discuss Next Project</h1>
+            <p class="text-base w-1/2 mx-auto text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+            <div class="w-3/4 mx-auto grid grid-cols-2 gap-4 py-6">
+
+                <input type="text" placeholder="First Name*" class="input input-bordered input-primary bg-white w-full  " />
+                <input type="text" placeholder="Last Name* " class="input input-bordered input-primary bg-white w-full " />
+                <input type="text" placeholder="Phone Number* " class="input input-bordered input-primary bg-white w-full " />
+                <input type="text" placeholder="Email Number* " class="input input-bordered input-primary bg-white w-full " />
+
+                <textarea class="textarea textarea-primary h-32 bg-white col-span-2" placeholder="Write your message here "></textarea>
+
+                <button href="" class=" flex gap-2 px-3 py-2 rounded-3xl bg-lime-500 items-center justify-center col-span-2">
+                    <a href="" class=" text-2xl text-black font-bold">Send Mail</a> 
+                    <a href="" class="w-auto py-[3px] flex items-center justify-center px-2  mt-1 bg-black mt-1 rounded-[50px]"><i class="text-base text-white  -rotate-45  fa-solid fa-arrow-right"></i></a>
+                </button>
+            </div>
+
+        </div>
+        
+
+    </section>
+    <footer class="w-full bg-black py-[100px]">
+
+        <div href="" class=" flex gap-2 px-3 py-2 rounded-3xl  items-center justify-center ">
+            <a href="" class="w-auto py-[3px] flex items-center justify-center px-2   bg-lime-500 mt-1 rounded-[50px]"><i class="text-base text-white  -rotate-45  fa-solid fa-arrow-right"></i></a>
+            <a class=" text-4xl text-white font-bold">Rinterio</a> 
+            
+        </div>
+        <p class="text-base w-2/5 mx-auto text-center py-6">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+
+        <div class="w-1/2 mx-auto pt-12">
+            <ul class="w-full flex item-center justify-between">
+                <li><a href="" class="text-base">Home</a></li>
+                <li><a href="" class="text-base">Services</a></li>
+                <li><a href="" class="text-base">Portfolio</a></li>
+                <li><a href="" class="text-base">Biogs</a></li>
+                <li><a href="" class="text-base">Contact</a></li>
+            </ul>
+        </div>
+
+        <button href="" class=" flex gap-2 px-3 py-2 rounded-3xl bg-lime-500 items-center justify-center mx-auto mt-16">
+            <a href="" class=" text-lg text-black font-bold">Book Consult</a> 
+            <a href="" class="w-auto py-[3px] flex items-center justify-center px-2  mt-1 bg-black mt-[-1px] rounded-[50px]"><i class="text-base text-white  -rotate-45  fa-solid fa-arrow-right"></i></a>
+        </button>
+    </footer>
 
 </body>
 </html>
